@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="question4.js"></script>
+    <link rel="stylesheet" href="question4.css" />
+    <title>Points</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Points Visualization</h1>
+
+      <div class="input-section">
+        <div class="input-group">
+          <input type="number" id="x-input" placeholder="X coordinate" />
+          <input type="number" id="y-input" placeholder="Y coordinate" />
+          <button id="add-point">Add Point</button>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid" id="grid"></div>
+      </div>
+
+      <div class="results">
+        <h3>Points Information:</h3>
+        <div id="points-list"></div>
+        <div id="distances"></div>
+        <div id="total-distance"></div>
+      </div>
+    </div>
+  </body>
+</html>
